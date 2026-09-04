@@ -8,11 +8,11 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// 1. MySQL Database Connection (XAMPP Setup)
+// 1. MySQL Database Connection 
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '', // XAMPP-க்கு பாஸ்வேர்ட் காலியாக இருக்க வேண்டும்
+    password: '', 
     database: 'ecommerce_db'
 });
 
@@ -25,7 +25,7 @@ db.connect((err) => {
     console.log('Successfully connected to MySQL Database!');
 });
 
-// 2. Fetch All Products from Database (image_url AS image சரி செய்யப்பட்டுள்ளது)
+// 2. Fetch All Products from Database 
 app.get('/api/products', (req, res) => {
     const sql = 'SELECT id, name, price, category, image_url AS image FROM products';
     db.query(sql, (err, results) => {

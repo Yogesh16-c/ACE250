@@ -1,7 +1,5 @@
--- பழைய அட்டவணை இருந்தால் நீக்குதல்
-DROP TABLE IF EXISTS products;
 
--- புதிய அட்டவணையை உருவாக்குதல்
+DROP TABLE IF EXISTS products;
 CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -9,10 +7,7 @@ CREATE TABLE products (
     category VARCHAR(50) NOT NULL,
     image_url VARCHAR(500)
 );
-
--- ஸ்கிரீன்ஷாட்களில் உள்ள பொருட்களின் விவரங்கள்
 INSERT INTO products (name, price, category, image_url) VALUES
--- Fashion
 ('Nermosa High-Waist Korean Trousers', 499, 'Fashion', 'https://via.placeholder.com/200'),
 ('Littlebox India Summer Elegant Dress', 949, 'Fashion', 'https://via.placeholder.com/200'),
 ('Gunmetal Grey Old Money Polo', 549, 'Fashion', 'https://via.placeholder.com/200'),
@@ -24,13 +19,11 @@ INSERT INTO products (name, price, category, image_url) VALUES
 ('The Indian Garage Co Men Colorblock Jacket', 675, 'Fashion', 'https://via.placeholder.com/200'),
 ('Allen Solly Solid Men Polo Neck', 898, 'Fashion', 'https://via.placeholder.com/200'),
 
--- Sports
 ('CRAZX I-10 PVC Cricket Soft Balls', 497, 'Sports', 'https://via.placeholder.com/200'),
 ('Whitedot Synthetic Rubber Practice Cricket Ball', 499, 'Sports', 'https://via.placeholder.com/200'),
 ('Khelspace KS Prime Leather Cricket Ball', 329, 'Sports', 'https://via.placeholder.com/200'),
 ('YBN Soft Balls Practice Training', 249, 'Sports', 'https://via.placeholder.com/200'),
 
--- Home & Living
 ('Lush with Moss Rug: Nature''s Design', 11250, 'Home & Living', 'https://via.placeholder.com/200'),
 ('Comfy Cube Soft-Covered Small Stool', 2299, 'Home & Living', 'https://via.placeholder.com/200'),
 ('Casaliving Porto RHS 4 Seater L Shape Sofa', 15999, 'Home & Living', 'https://via.placeholder.com/200'),
