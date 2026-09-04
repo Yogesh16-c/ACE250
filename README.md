@@ -67,7 +67,7 @@ Evaluators can run and test the application locally in just a few steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/ace-agentic-commerce.git](https://github.com/your-username/ace-agentic-commerce.git)
+   git clone [https://github.com/Yogesh16-c/ACE250]
 
 ```
 
