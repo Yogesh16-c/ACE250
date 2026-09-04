@@ -1,8 +1,3 @@
-உங்கள் `README.md` கோப்பில் உள்ள வழிமுறைகளைப் பார்த்து மதிப்பீட்டாளர்கள் திட்டத்தை எளிதாக இயக்கும் வகையிலும், GitHub-இல் பார்க்கும் போது அனிமேஷன்கள் மற்றும் அட்டவணைகளுடன் மிகவும் கவர்ச்சியாகத் தெரியும்படியும் கோடை மேம்படுத்தி முழுமையாகக் கீழே கொடுத்துள்ளேன்.
-
-இதை அப்படியே காப்பி செய்து உங்கள் **`README.md`** கோப்பில் சேமித்துக் கொள்ளலாம்.
-
-```markdown
 <!-- HEADER BANNER WITH ANIMATED GRADIENT EFFECT -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=0,2,10&height=220&section=header&text=ACE%20-%20Agentic%20Commerce%20Engine&fontSize=36&fontColor=fff&animation=twinkling&desc=AI-Driven%20Autonomous%20E-Commerce%20Platform&descSize=16" width="100%" />
